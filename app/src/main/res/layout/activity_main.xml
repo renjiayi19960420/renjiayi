@@ -7,6 +7,7 @@
     android:gravity="center"
     tools:context=".MainActivity">
     <Button
+        android:id="@+id/ssssss"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:text="Hellow world"
