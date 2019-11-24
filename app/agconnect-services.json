@@ -1,0 +1,11 @@
+{
+	"client":{
+		"cp_id":"350086000122143717",
+		"product_id":"9105385871708250821",
+		"client_id":"234806552647697600",
+		"client_secret":"CB6009D57D7185F6A689BFA0C8CEFB0C37D689B16103860536D57DA3A1F0CA0A",
+		"app_id":"101390085",
+		"package_name":"com.renjiayi.testapp"
+	},
+	"configuration_version":"1.0"
+}
