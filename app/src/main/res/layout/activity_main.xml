@@ -3,14 +3,73 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal"
+    android:orientation="vertical"
     android:gravity="center"
     tools:context=".MainActivity">
     <Button
-        android:id="@+id/ssssss"
+        android:id="@+id/request_premission"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:text="Hellow world"
+        android:textColor="@color/colorAccent"
+        android:text="请求权限"
         />
+    <Button
+        android:id="@+id/select_calendar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textColor="@color/colorAccent"
+        android:text="查询日历"
+        />
+    <Button
+        android:id="@+id/add_calendar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textColor="@color/colorAccent"
+        android:text="插入日历表"
+        />
+    <Button
+        android:id="@+id/add_Event"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textColor="@color/colorAccent"
+        android:text="插入事件"
+        />
+    <Button
+        android:id="@+id/delete_Event"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textColor="@color/colorAccent"
+        android:text="删除事件"
+        />
+    <com.renjiayi.testapp.ExpressTitleContainer
+        android:layout_width="match_parent"
+        android:layout_height="48dp">
+        <TextView
+            android:id="@+id/tv_left"
+            android:lines="1"
+            android:ellipsize="end"
+            android:text="金融大师金融大师金融大师金融大师金融大师金"
+            android:textColor="@color/colorAccent"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            />
+        <TextView
+            android:id="@+id/tv_middle"
+            android:lines="1"
+            android:text="2019-02-28"
+            android:layout_marginLeft="8dp"
+            android:textColor="@color/colorPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            />
+        <TextView
+            android:id="@+id/tv_right"
+            android:lines="1"
+            android:text="提醒"
+            android:textColor="@color/colorAccent"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            />
 
+    </com.renjiayi.testapp.ExpressTitleContainer>
 </LinearLayout>
