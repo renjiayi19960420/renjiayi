@@ -24,4 +24,16 @@ public class ExampleInstrumentedTest {
 
         assertEquals("com.renjiayi.testapp", appContext.getPackageName());
     }
+
+    public int CountZero(int n) {
+        int count = 0;
+        for (int i = 1; i <= n; i++) {
+            int cur = i;
+            while (cur % 5 == 0) {
+                count++;
+                cur /= 5;
+            }
+        }
+        return count;
+    }
 }
